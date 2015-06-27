@@ -1,0 +1,19 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+
+repositories{
+ mavenCentral()
+}
+
+dependencies{
+ compile 'org.codehaus.groovy:groovy-all:2.4.3'
+ compile 'org.apache.poi:poi:3.9'
+ compile 'org.apache.poi:poi-ooxml:3.9'
+ compile 'org.apache.poi:poi-ooxml-schemas:3.9'
+ compile 'org.apache.poi:poi-scratchpad:3.9'
+ compile 'org.apache.poi:ooxml-schemas:1.1'
+ compile 'org.apache.poi:openxml4j:1.0'
+}
+
